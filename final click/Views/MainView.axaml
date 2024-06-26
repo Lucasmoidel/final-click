@@ -32,7 +32,8 @@
 				<Grid>
 					<TextBlock Text="auto" HorizontalAlignment="Center"/>
 					<TextBlock Text="clicker" HorizontalAlignment="Center" Margin="0 15 0 0"/>
-					<TextBlock Text="num" HorizontalAlignment="Center" Margin="0 45 0 0"/>
+					<TextBlock Name="AutoClickPriceText" Text="{Binding AutoClickDefaultPice}" HorizontalAlignment="Center" Margin="0 30 0 0"/>
+					<TextBlock Name="AutoText" Text="{Binding AutoClick}" HorizontalAlignment="Center" Margin="0 45 0 0"/>
 				</Grid>
 				
 			</Button>
