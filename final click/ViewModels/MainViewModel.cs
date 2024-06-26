@@ -10,5 +10,7 @@ public class MainViewModel : ViewModelBase
 	public int AutoClick => 0;
 	public string AutoClickDefaultPice => "$20";
 	public string CPSStart => "CPS: 0";
+	public int AutoClickMult => 1;
+	public string AutoClickMultDefaultPice => "$100";
 }
 

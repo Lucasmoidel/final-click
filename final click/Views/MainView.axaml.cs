@@ -9,18 +9,18 @@ namespace final_click.Views
 	public partial class MainView : UserControl
 	{
 		bool GameStarted = false;
-		int number = 0;
-		int AutoClickNum = 0;
-		int AutoClickPrice = 20;
-		int AutoClickMult = 1;
-		int cps = 0;
-		Avalonia.Controls.TextBlock MainCount = null;
+		float number = 0;
+		float AutoClickNum = 0;
+		float AutoClickPrice = 20;
+		float AutoClickMult = 1;
+		float AutoClickMultPrice = 100;
+		float cps = 0;
 		private static Timer aTimer;
 
 		public MainView()
 		{
 			InitializeComponent();
-			int cps = AutoClickNum * AutoClickMult;
+			cps = AutoClickNum * AutoClickMult;
 			aTimer = new System.Timers.Timer();
 			aTimer.Interval = 1000;
 			aTimer.Elapsed += AutoUpdate;
@@ -49,6 +49,19 @@ namespace final_click.Views
 			
 		}
 
+		private void AutoClickerMultiplyer(object sender, RoutedEventArgs e)
+		{
+			if (number >= AutoClickMultPrice)
+			{
+				AutoClickMult += (float)0.1;
+				number -= AutoClickMultPrice;
+				AutoClickMultPrice++;
+				Update();
+
+			}
+
+		}
+
 		public void AutoUpdate(object source, ElapsedEventArgs e)
 		{
 			if (GameStarted == true)
@@ -59,9 +72,11 @@ namespace final_click.Views
 
 				// Dispatch UI update to the UI thread
 				Dispatcher.UIThread.InvokeAsync(() => {
-					myTextBlock.Text = "$" + number.ToString();
+					MainButton.Text = "$" + number.ToString();
 					AutoClickPriceText.Text = "$" + AutoClickPrice.ToString();
-					AutoText.Text = AutoClickNum.ToString();
+					AutoCLickNumText.Text = AutoClickNum.ToString();
+					AutoClickMultPriceText.Text = "$" + AutoClickMultPrice.ToString();
+					AutoMultNumText.Text = AutoClickMult.ToString();
 					CPSText.Text = "CPS: " + cps.ToString();
 				});
 			}
@@ -73,9 +88,11 @@ namespace final_click.Views
 			{
 				// Dispatch UI update to the UI thread
 				Dispatcher.UIThread.InvokeAsync(() => {
-					myTextBlock.Text = "$" + number.ToString();
+					MainButton.Text = "$" + number.ToString();
 					AutoClickPriceText.Text = "$" + AutoClickPrice.ToString();
-					AutoText.Text = AutoClickNum.ToString();
+					AutoCLickNumText.Text = AutoClickNum.ToString();
+					AutoClickMultPriceText.Text = "$" + AutoClickMultPrice.ToString();
+					AutoMultNumText.Text = AutoClickMult.ToString();
 					CPSText.Text = "CPS: " + cps.ToString();
 				});
 			}
