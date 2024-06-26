@@ -26,6 +26,7 @@
 			</ExperimentalAcrylicBorder.Material>
 		</ExperimentalAcrylicBorder>
 		<TextBlock Text="{Binding Greeting}" Name="myTextBlock" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 15 0 0" />
+		<TextBlock Text="{Binding CPSStart}" Name="CPSText" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="300 15 0 0" />
 	    <Button  Content="click me" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 50 0 0" Click="Click_button" />
 		<Grid>
 			<Button Click="AutoClicker" Width="75" Height="75"	HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 275 75" >
