@@ -72,7 +72,7 @@ namespace final_click.Views
 
 				// Dispatch UI update to the UI thread
 				Dispatcher.UIThread.InvokeAsync(() => {
-					MainButton.Text = "$" + number.ToString();
+					MainButton.Text = "$" + Math.Round(number, 2).ToString();
 					AutoClickPriceText.Text = "$" + AutoClickPrice.ToString();
 					AutoCLickNumText.Text = AutoClickNum.ToString();
 					AutoClickMultPriceText.Text = "$" + AutoClickMultPrice.ToString();
@@ -88,7 +88,7 @@ namespace final_click.Views
 			{
 				// Dispatch UI update to the UI thread
 				Dispatcher.UIThread.InvokeAsync(() => {
-					MainButton.Text = "$" + number.ToString();
+					MainButton.Text = "$" + Math.Round(number, 2).ToString();
 					AutoClickPriceText.Text = "$" + AutoClickPrice.ToString();
 					AutoCLickNumText.Text = AutoClickNum.ToString();
 					AutoClickMultPriceText.Text = "$" + AutoClickMultPrice.ToString();
