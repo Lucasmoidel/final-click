@@ -1,3 +1,4 @@
+This program uses the [.NET](https://dotnet.microsoft.com/) and [avolonia](https://avaloniaui.net/) frameworks
 to run progrom instructions
 linux:
 ~$ git clone https://github.com/Lucasmoidel/final-click
