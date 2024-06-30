@@ -1,0 +1,6 @@
+C:\Users\Lucas1\source\repos\final click\final click.Desktop\obj\Release\net8.0\win-x64\final click.Desktop.csproj.AssemblyReference.cache
+C:\Users\Lucas1\source\repos\final click\final click.Desktop\obj\Release\net8.0\win-x64\Avalonia\Resources.Inputs.cache
+C:\Users\Lucas1\source\repos\final click\final click.Desktop\obj\Release\net8.0\win-x64\final click.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas1\source\repos\final click\final click.Desktop\obj\Release\net8.0\win-x64\final click.Desktop.AssemblyInfoInputs.cache
+C:\Users\Lucas1\source\repos\final click\final click.Desktop\obj\Release\net8.0\win-x64\final click.Desktop.AssemblyInfo.cs
+C:\Users\Lucas1\source\repos\final click\final click.Desktop\obj\Release\net8.0\win-x64\final click.Desktop.csproj.CoreCompileInputs.cache

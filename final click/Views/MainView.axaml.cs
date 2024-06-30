@@ -76,8 +76,8 @@ namespace final_click.Views
 					AutoClickPriceText.Text = "$" + AutoClickPrice.ToString();
 					AutoCLickNumText.Text = AutoClickNum.ToString();
 					AutoClickMultPriceText.Text = "$" + AutoClickMultPrice.ToString();
-					AutoMultNumText.Text = AutoClickMult.ToString();
-					CPSText.Text = "CPS: " + cps.ToString();
+					AutoMultNumText.Text = Math.Round(AutoClickMult, 2).ToString();
+					CPSText.Text = "CPS: " + Math.Round(cps, 2).ToString();
 				});
 			}
 		}
@@ -92,8 +92,8 @@ namespace final_click.Views
 					AutoClickPriceText.Text = "$" + AutoClickPrice.ToString();
 					AutoCLickNumText.Text = AutoClickNum.ToString();
 					AutoClickMultPriceText.Text = "$" + AutoClickMultPrice.ToString();
-					AutoMultNumText.Text = AutoClickMult.ToString();
-					CPSText.Text = "CPS: " + cps.ToString();
+					AutoMultNumText.Text = Math.Round(AutoClickMult, 2).ToString();
+					CPSText.Text = "CPS: " + Math.Round(cps, 2).ToString();
 				});
 			}
 		}

@@ -1,0 +1,19 @@
+C:\Users\Lucas1\source\repos\final click\final click\bin\Release\net8.0\final click.deps.json
+C:\Users\Lucas1\source\repos\final click\final click\bin\Release\net8.0\final click.dll
+C:\Users\Lucas1\source\repos\final click\final click\bin\Release\net8.0\final click.pdb
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\final click.csproj.AssemblyReference.cache
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\Avalonia\resources
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\final click.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\final click.AssemblyInfoInputs.cache
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\final click.AssemblyInfo.cs
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\final click.csproj.CoreCompileInputs.cache
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\Avalonia\references
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\Avalonia\original.dll
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\Avalonia\original.pdb
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\Avalonia\original.ref.dll
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\refint\final click.dll
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\final click.dll
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\final click.pdb
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\ref\final click.dll
+C:\Users\Lucas1\source\repos\final click\final click\obj\Release\net8.0\final click.sourcelink.json
