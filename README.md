@@ -1,6 +1,6 @@
-This program uses the [.NET](https://dotnet.microsoft.com/) and [avolonia](https://avaloniaui.net/) frameworks
+This program uses the [.NET](https://dotnet.microsoft.com/) and [avolonia UI](https://avaloniaui.net/) frameworks
 
-to run progrom instructions
+execute instructions
 
 linux:
 
