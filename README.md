@@ -20,9 +20,9 @@ or
 
 android is not working idk
 
-https://github.com/Lucasmoidel/final-click/assets/99782884/70623e31-062c-402f-ae02-cd189477823c
-
 https://github.com/Lucasmoidel/final-click/assets/99782884/90b41b7c-41b6-48fe-8daa-4f5c726ab241
+
+https://github.com/Lucasmoidel/final-click/assets/99782884/70623e31-062c-402f-ae02-cd189477823c
 
 your finished files will be in final-click\final click.Desktop\bin\Release\net8.0\
 
